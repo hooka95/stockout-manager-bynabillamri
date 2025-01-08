@@ -1,0 +1,13 @@
+{
+    "name": "stockout-manager",
+    "version": "1.0.0",
+    "description": "Application de gestion des stocks",
+    "main": "index.html",
+    "scripts": {
+      "build": "mkdir -p build && cp *.html *.js build/",
+      "start": "serve"
+    },
+    "dependencies": {
+      "serve": "^14.2.1"
+    }
+  }
